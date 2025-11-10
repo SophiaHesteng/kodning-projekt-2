@@ -40,7 +40,8 @@ footer {
 }
 
 .logo{
-    width: 75px;
+    width: 100px;
+    padding-left: 1em;
 }
 
 header nav{
@@ -77,20 +78,22 @@ header nav{
 }
 
 /*------------------------Footer----------------------------------*/
-footer{
+
+.footer{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;
+    padding: 2em 2em;
 }
 
 .instagram{
     width: 90px;
-    position: static;
     background-color: transparent;
 }
 
 .tiktok{
     width: 90px;
-    position: relative;
     left: 20px;
     background-color: transparent;
 }
@@ -99,7 +102,6 @@ footer{
     list-style-type: none;
     justify-content: right;
     background-color: transparent;
-    position: relative;
 }
 /*------------------------Forside indhold-------------------------*/
 
@@ -120,5 +122,5 @@ footer{
 h1{
     font-family: 'Albert Sans', cursive;
     text-align: center;
-    padding: 0.1em 2em;
+    padding: 0.3em 2em;
 }
