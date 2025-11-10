@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+/*--------------------------Grid-area------------------------*/
+body {
+    display: grid;
+    grid-template-columns: 5fr;
+    grid-template-rows: 120px 1fr 120px;
+    grid-template-areas:
+        "header header header header header"
+        "main main main main main"
+        "footer footer footer footer footer";
+}
+ 
+header {
+    grid-area: header;
+    background-color: #3E7184;
+}
+ 
+main {
+    grid-area: main;
+    background-color: #EBE3DA;
+}
+ 
+footer {
+    grid-area: footer;
+    background-color: #3E7184;
+}
+
+
+/*---------------------Header & Navigation-------------------------*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 75px;
+}
+
+header nav{
+    display: none;
+}
+
+#bars{
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+    color: #EBE3DA;
+}
+
+.show{
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: 0; 
+    background-color: #E16D5E;
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+    padding: 1em;
+    padding-left: 2em;
+}
+
+.menu li a{
+    font-family: 'League Spartan';
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+}
+
+/*------------------------Footer----------------------------------*/
+footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.instagram{
+    width: 90px;
+    position: static;
+    background-color: transparent;
+}
+
+.tiktok{
+    width: 90px;
+    position: relative;
+    left: 20px;
+    background-color: transparent;
+}
+
+.links{
+    list-style-type: none;
+    justify-content: right;
+    background-color: transparent;
+    position: relative;
+}
+/*------------------------Forside indhold-------------------------*/
+
+.hero-billede{
+    width: 100%;
+}
+
+.brødtekst{
+    font-family: 'League Spartan';
+    padding: 2em 2em;
+    line-height: 1.8em;
+}
+
+.fællesskab{
+    width: 100%;
+}
+
+h1{
+    font-family: 'Albert Sans', cursive;
+    text-align: center;
+    padding: 0.1em 2em;
+}
