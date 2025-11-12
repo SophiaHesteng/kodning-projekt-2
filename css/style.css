@@ -192,3 +192,42 @@ h1{
     text-align: center;
     padding-bottom: 1.8em;
 }
+
+
+
+/*--------------------------------------------------Responsivitet-----------------------------------------*/
+
+
+/*--------------Desktop-----------------*/
+
+@media screen and (min-width: 769px){
+    #bars{
+        display: none;
+    }
+
+     header nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: center;
+        gap: 25%;
+    }
+
+    section:nth-of-type(1){
+        display: flex;
+        gap: 2em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    section:nth-of-type(1) p{
+        width: 25%;
+    }
+
+    section:nth-of-type(1) img{
+        width: 75%;
+    }
+}
