@@ -155,3 +155,40 @@ h1{
 .highlight{
     font-weight: bold;
 }
+
+/*---------------------------Underside "Hvad er mental sundhed?"------------------*/
+
+.healthcare{
+    width: 100%;
+    padding-bottom: 3em;
+}
+
+
+/*----------------------------Underside "Kontakt os"-------------------------------*/
+
+.kontakt{
+    text-align: center;
+    padding: 2em;
+}
+
+.kontaktikoner{
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    padding-bottom: 3em;
+}
+
+.email{
+    width: 100px;
+}
+
+.telefon{
+    width: 100px;
+}
+
+.kontaktinformation{
+    font-family: 'League Spartan';
+    line-height: 2em;
+    text-align: center;
+    padding-bottom: 1em;
+}
