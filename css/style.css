@@ -124,3 +124,34 @@ h1{
     text-align: center;
     padding: 0.3em 2em;
 }
+
+
+/*-------------------------------Underside "Gode råd"--------------------------------*/
+
+.undersidebillede{
+    width: 100%;
+}
+
+.spørgsmål{
+    font-family: 'Albert Sans', cursive;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.goderåd{
+    font-family: 'League Spartan';
+    text-align: center;
+    padding: 1em 1.5em;
+    line-height: 1.8em;
+}
+
+.råd{
+    font-family: 'League Spartan';
+    line-height: 1.8em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.highlight{
+    font-weight: bold;
+}
