@@ -117,11 +117,12 @@ header nav{
 
 .hero-billede{
     width: 100%;
+    padding-bottom: 2em;
 }
 
 .brødtekst{
     font-family: 'League Spartan';
-    padding: 2em 2em;
+    padding: 1em 2em;
     line-height: 1.8em;
 }
 
@@ -179,6 +180,13 @@ h1{
 
 /*----------------------------Underside "Kontakt os"-------------------------------*/
 
+h2{
+    font-family: 'Albert Sans', cursive;
+    text-align: center;
+    padding-bottom: 1em;
+
+}
+
 /*------------kontaktform-----------------*/
 
 .kontaktform {
@@ -187,10 +195,8 @@ h1{
   padding: 1.3em;
   width: 65%;
   margin: 0 auto; /*Centrerer elementet på siden*/
+  line-height: 2em;
 }
-
-
-
 
 /*------------Andre style elementer--------------*/
 
@@ -210,6 +216,7 @@ h1{
     justify-content: center;
     gap: 4em;
     padding-bottom: 3em;
+    padding-top: 2em;
 }
 
 .email{
