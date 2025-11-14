@@ -135,6 +135,9 @@ h1{
     padding: 0.3em 2em;
 }
 
+.happy{
+    width: 100%;
+}
 
 /*-------------------------------Underside "Gode råd"--------------------------------*/
 
@@ -229,7 +232,7 @@ h1{
 /*--------------------------------------------------Responsivitet-----------------------------------------*/
 
 
-/*--------------Desktop-----------------*/
+/*-------------------------Desktop--------------------------*/
 
 @media screen and (min-width: 769px){
     #bars{
@@ -264,6 +267,21 @@ h1{
     }
 
     section:nth-of-type(1) img{
+        width: 75%;
+    }
+
+     section:nth-of-type(2){
+        display: flex;
+        gap: 2em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    section:nth-of-type(2) p{
+        width: 25%;
+    }
+
+    section:nth-of-type(2) img{
         width: 75%;
     }
 }
