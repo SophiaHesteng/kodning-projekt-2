@@ -256,10 +256,6 @@ h2{
         justify-content: flex-end;
     }
 
- .loop{
-        display: none;
-    }
-
     nav ul{
         display: flex;
         justify-content: center;
