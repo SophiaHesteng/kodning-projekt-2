@@ -113,6 +113,11 @@ header nav{
     justify-content: right;
     background-color: transparent;
 }
+
+footer a{
+    color: white;
+    line-height: 1.7em;
+}
 /*------------------------Forside indhold-------------------------*/
 
 .hero-billede{
