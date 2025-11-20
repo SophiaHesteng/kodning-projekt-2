@@ -93,17 +93,16 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 0.8em;
-    padding: 2em 1.5em;
+    padding: 2em 2em;
 }
 
 .instagram{
-    width: 90px;
+    width: 70px;
     background-color: transparent;
 }
 
 .tiktok{
-    width: 90px;
+    width: 70px;
     left: 20px;
     background-color: transparent;
 }
