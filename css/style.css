@@ -111,6 +111,7 @@ header nav{
     list-style-type: none;
     justify-content: right;
     background-color: transparent;
+    padding-right: 1.5em;
 }
 
 footer a{
@@ -311,5 +312,4 @@ h2{
         height: auto;
         object-fit: cover;
     }
-
 }
