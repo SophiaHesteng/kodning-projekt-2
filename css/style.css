@@ -93,7 +93,7 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1em;
+    gap: 0.8em;
     padding: 2em 2em;
 }
 
